@@ -22,7 +22,7 @@ mkdir /etc/shadowsocks-libev && cd /etc/shadowsocks-libev
 
 cat>/etc/shadowsocks-libev/config.json<<EOF
 {
-    "server":"::",
+    "server":"0.0.0.0",
     "server_port":8388,
     "password":"huangle",
     "timeout":300,
